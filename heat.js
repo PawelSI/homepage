@@ -1,9 +1,25 @@
-let changeBackgroundColor = document.querySelector(".changeBackgroundColor");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
+{
+    const welcome = () => {
+        console.log("Witam serdecznie wszystkich developerów, którzy tutaj zaglądają!")
+    }
 
-changeBackgroundColor.addEventListener("click", () => {
-    body.classList.toggle("AnotherBackground");
+    const onChangeNackgroundClick = () => {
+        const body = document.querySelector(".body");
+        const themeName = document.querySelector(".themeName");
+        body.classList.toggle("AnotherBackground");
 
-    themeName.innerText = body.classList.contains("AnotherBackground") ? "jasny" : "ciemny";
-});
+        themeName.innerText = body.classList.contains("AnotherBackground") ? "jasny" : "ciemny";
+    };
+
+    const init = () => {
+        const changeBackgroundColor = document.querySelector(".changeBackgroundColor");
+
+        changeBackgroundColor.addEventListener("click", onChangeNackgroundClick);
+
+        welcome()
+
+    };
+
+    init();
+
+}
