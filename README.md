@@ -5,6 +5,10 @@
 In this repository I wanna to present you movie called "Heat". In this page I describe genesis of movie, actress
 and their roles and story.
 
+See my web at this link: https://pawelsi.github.io/homepage/
+
+![layout of web](gif/gifmaker_me(1).gif)
+
 ## Features:
 
 - HTML
@@ -12,7 +16,7 @@ and their roles and story.
 - JavaScript
 - BEM convention
 
-You can see my web at this link: https://pawelsi.github.io/homepage/
+
 
 ## Author
 
